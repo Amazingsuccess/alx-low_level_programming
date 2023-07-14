@@ -1,0 +1,1 @@
+A project on writing scripts on; Running files through a preprocessor, on compiling a C file, generating the assembly code on a C code. Also on writing C programs that prints various statements and  the size of various types on the computer it is compiled and run on. 
