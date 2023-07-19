@@ -1,16 +1,20 @@
 #include "main.h"
+
 /**
- * main - prints the string "_putchar" from a character array.
- * Return: 0 on success.
- */
+ * main - entry block
+ * no argument
+ * Return: 0
+ **/
+
 int main(void)
 {
-	char c[] = "_putchar";
-	int i;
+	char ermias[] = "_putchar";
 
-	for (i = 0; i < 9; i++)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(c[i]);
+		_putchar(ermias[c]);
 	}
 	_putchar('\n');
 	return (0);
